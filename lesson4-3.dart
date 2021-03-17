@@ -1,6 +1,6 @@
 import 'dart:io';
 
-main() {
+main() { //a program that asks you to enter a number
   stdout.write("Enter the nomber");
   int number = int.parse(stdin.readLineSync()!);
       if(number % 2 == 0)  {
